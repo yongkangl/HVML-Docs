@@ -1,11 +1,11 @@
-# HVML, a Descriptive Programming Language
+# Hybrid Virtual Markup Language
 
 **Table of Contents**
 
 [//]:# (START OF TOC)
 
-- [Article Info](#article-info)
 - [Abstract](#abstract)
+- [Background](#background)
 - [1) Introduction](#1-introduction)
    + [1.1) Problems](#11-problems)
    + [1.2) Existing Solutions](#12-existing-solutions)
@@ -81,13 +81,15 @@
 
 [//]:# (END OF TOC)
 
-## Article Info
-
-- Vincent Wei
-
 ## Abstract
 
-This article describes the motivation behind HVML, the design goals, and its open source implementation.
+This article describes the motivation, brief introduction, and plans for `Hybrid Virtual Markup Language`(Abbreviation: `HVML`).
+
+`HVML` is a descriptive programming language, initially created for advancing application programming with UI. It takes advantage of web front-end development and removes disadvantages in the existing front-end frameworks, trying to provide a convenient and efficient method for UI development.
+
+During the specification drafting and interpreter implementing process, the scope is expanded to areas other than UI programming.
+
+## Background
 
 HVML is a descriptive programming language that uses an XML-like syntax, so it can also be considered a programmable markup language.
 
